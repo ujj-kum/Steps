@@ -1,11 +1,14 @@
-### Virtualenv creation
+### 1. Virtualenv creation
 python3 -m venv env
 
-### Activate virtualenv 
+### 2. Activate virtualenv 
 source env/bin/activate  
 
-### Install dependency
+### 3. Check Environment
+which python
+
+### 4. Install dependency
 pip install pandas  
 
-### Deactivate when done
+### 5. Deactivate when done
 deactivate
