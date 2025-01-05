@@ -11,6 +11,8 @@ which python
 
 ### 4. Install dependency
 pip install pandas  
+##### All at once
+pip install -r requirements.txt
 
 ### 5. Deactivate when done
 deactivate
