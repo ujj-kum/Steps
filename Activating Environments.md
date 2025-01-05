@@ -1,5 +1,7 @@
 ### 1. Virtualenv creation
 python3 -m venv env
+##### In desired folder
+python3 -m venv /path/to/directory/env_name
 
 ### 2. Activate virtualenv 
 source env/bin/activate  
