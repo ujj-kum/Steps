@@ -1,7 +1,13 @@
 ### 1. Virtualenv creation
-python3 -m venv env
+python3 -m venv envName
 ##### In desired folder
 python3 -m venv /path/to/directory/env_name
+
+### Activate in PowerShell/VS Code
+##### Bypass Powershell Restriction
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+### Activate environment
+ .\envName\Scripts\activate
 
 ### 2. Activate virtualenv 
 source env/bin/activate  
