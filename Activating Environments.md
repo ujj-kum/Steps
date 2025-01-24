@@ -1,6 +1,8 @@
 ### 1. Create virtual environment using conda
 conda create --name myEnvName python=3.10
+
 conda activate myEnvName
+
 pip install -r requirements.txt
 
 ### 2. Virtualenv creation 
