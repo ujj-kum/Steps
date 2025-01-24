@@ -1,6 +1,11 @@
 ### 1. Create virtual environment using conda
 conda create --name myEnvName python=3.10
 
+#### In desired location
+conda create --prefix ./myEnvName python=3.10 # In the current working directory
+
+
+
 conda activate myEnvName
 
 pip install -r requirements.txt
