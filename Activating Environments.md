@@ -1,4 +1,9 @@
-### 1. Virtualenv creation
+### 1. Create virtual environment using conda
+conda create --name myEnvName python=3.10
+conda activate myEnvName
+pip install -r requirements.txt
+
+### 2. Virtualenv creation 
 python3 -m venv envName
 ##### In desired folder
 python3 -m venv /path/to/directory/env_name
@@ -9,7 +14,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ### Activate environment
  .\envName\Scripts\activate
 
-### 2. Activate virtualenv 
+### 3. Activate virtualenv 
 source env/bin/activate  
 
 ### 3. Check Environment
