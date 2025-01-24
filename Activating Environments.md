@@ -1,5 +1,5 @@
 ### 1. Create virtual environment using conda
-conda create --name myEnvName python=3.10               # C:\Users\<username>\.conda\envs
+conda create --name myEnvName python=3.10              # C:\Users\<username>\.conda\envs
 
 #### In desired location
 a. conda create --prefix /custom/path/to/env python=3.10
