@@ -23,6 +23,12 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ### Activate environment
  .\envName\Scripts\activate
 
+### For .iypnb files
+install jupyter, ipykernel in the environment
+
+python -m ipykernel install --user --name=myenv --display-name "Python (myenv)"
+
+
 ### 3. Activate virtualenv 
 source env/bin/activate  
 
