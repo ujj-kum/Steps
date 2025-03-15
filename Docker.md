@@ -7,7 +7,7 @@ docker run -d -p 5000:5000 imagename
 
 
 ### Login to docker hub
-docker login -u <username>
+docker login -u \<username\>
 ### Push image to dockerhub
-docker tag <imagename> <username>/<repo-name>
-docker push <username>/<repo-name>
+docker tag \<imagename\> \<username\>/\<repo-name\>
+docker push \<username\>/\<repo-name\>
