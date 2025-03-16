@@ -6,9 +6,20 @@ docker images
 docker run -d -p 5000:5000 imagename
 
 
-### Login to docker hub
+### 4. Login to docker hub
 docker login -u \<username\>
-### Push image to dockerhub
+### 5. Push image to dockerhub
 docker tag \<imagename\> \<username\>/\<repo-name\>
 
 docker push \<username\>/\<repo-name\>
+
+### 6. Pull image from dockerhu and run in interactive mode
+docker pull \<imagename\>
+
+docker run -it \<imagename\> /bin/bash
+
+### 7. Create image from Docker file
+docker build -t \<imagename\> \<dir\>
+
+### 7. Create image from container
+docker commit \<containername\> \<imagename\>
