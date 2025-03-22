@@ -24,4 +24,12 @@ docker pull \<imagename\>
 
 docker run -it \<imagename\> /bin/bash
 
+### Pushing image to Azure Container Registry
+docker build --tag \<loginserver\>/\<imagename\>:tagname
+
+docker login \<loginserver\>
+use username and password
+
+docker push \<loginserver\>/<imagename>
+
 
