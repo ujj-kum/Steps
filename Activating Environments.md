@@ -22,6 +22,7 @@ python3 -m venv /path/to/directory/env_name
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ### Activate environment
  .\envName\Scripts\activate (For Powershell)
+ 
  source envName/Scripts/activate (For Git Bash or Linux Based Cmd)
 
 ### For .iypnb files
