@@ -21,7 +21,8 @@ python3 -m venv /path/to/directory/env_name
 ##### Bypass Powershell Restriction
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ### Activate environment
- .\envName\Scripts\activate
+ .\envName\Scripts\activate (For Powershell)
+ source envName/Scripts/activate (For Git Bash or Linux Based Cmd)
 
 ### For .iypnb files
 install jupyter and ipykernel in the environment (from requirements.txt preferred)
